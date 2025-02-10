@@ -1,8 +1,6 @@
 ﻿--Файл локализации для ruRU
 --Credits: Darth Predator
-local AceLocale = LibStub:GetLibrary("AceLocale-3.0-ElvUI")
-local L = AceLocale:NewLocale("ElvUI", "ruRU")
-if not L then return end
+local L = ElvUI[1].Libs.ACL:NewLocale("ElvUI", "ruRU")
 
 L["Adds 2 digits in the coords"] = "Добавляет сотые доли координат"
 L["Adds 6 pixels at the Main Location Panel height."] = "Увеличить высоту панели зоны на 6 пикселей."
@@ -59,7 +57,7 @@ L["Send position to chat"] = "Отправить координаты в чат"
 L["Set the font size."] = "Установить размер шрифта."
 L["Shadows"] = "Тени"
 L["ShiftClick : "] = "Shift+ЛКМ"
-L["Show additional info in the Location Panel."] = "Show additional info in the Location Panel." -- Requires localization
+L["Show additional info in the Location Panel."] = true
 L["Show Battle Pet level"] = "Show Battle Pet level" -- Requires localization
 L["Show/Hide all panels when in combat"] = "Показать/скрыть все панели в бою"
 L["Show/Hide PvP zones, Arenas and BGs on recommended dungeons and zones."] = "Показать/скрыть PvP зоня, арены и поля боя в списке рекомендуемых подземелий и зон"
@@ -75,6 +73,7 @@ L["Truncates the text rather than auto enlarge the location panel when the text 
 L["Truncate text"] = "Truncate text" -- Requires localization
 L["Update Timer"] = "Update Timer" -- Requires localization
 L["Use Custom Location Color"] = "Мспользовать свой"
+L["Use DataTexts font"] = true
 L["with Entrance Coords"] = "with Entrance Coords" -- Requires localization
 L["Zone and Subzone"] = "Зона и суб-зона"
 L["Hide Coords"] = true

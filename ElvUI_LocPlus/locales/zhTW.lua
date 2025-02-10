@@ -1,6 +1,5 @@
-﻿local AceLocale = LibStub:GetLibrary("AceLocale-3.0-ElvUI")
-local L = AceLocale:NewLocale("ElvUI", "zhTW")
-if not L then return end
+﻿local L = ElvUI[1].Libs.ACL:NewLocale("ElvUI", "zhTW")
+
 -- Credits: zhouf616, xjjxfpyyyf
 L["Adds 2 digits in the coords"] = "坐標增加2位數字"
 L["Adds 6 pixels at the Main Location Panel height."] = "主要位置框架增加6個像素高度."
@@ -57,7 +56,7 @@ L["Send position to chat"] = "發送玩家當前位置到聊天框"
 L["Set the font size."] = "設置字體大小"
 L["Shadows"] = "陰影"
 L["ShiftClick : "] = "Shift+點擊 : "
-L["Show additional info in the Location Panel."] = "Show additional info in the Location Panel." -- Requires localization
+L["Show additional info in the Location Panel."] = true
 L["Show Battle Pet level"] = "Show Battle Pet level" -- Needs review
 L["Show/Hide all panels when in combat"] = "戰鬥中 顯示/隱藏 所有框架"
 L["Show/Hide PvP zones, Arenas and BGs on recommended dungeons and zones."] = "在PVP區域, 競技場和戰場內顯示或隱藏頂部信息條."
@@ -73,6 +72,7 @@ L["Truncates the text rather than auto enlarge the location panel when the text 
 L["Truncate text"] = "縮短文本"
 L["Update Timer"] = "Update Timer" -- Requires localization
 L["Use Custom Location Color"] = "自定義區域顔色"
+L["Use DataTexts font"] = true
 L["with Entrance Coords"] = "with Entrance Coords" -- Requires localization
 L["Zone and Subzone"] = "顯示區域"
 L["Hide Coords"] = true

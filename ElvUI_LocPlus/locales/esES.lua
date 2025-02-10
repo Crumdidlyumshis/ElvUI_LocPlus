@@ -1,6 +1,4 @@
-﻿local AceLocale = LibStub:GetLibrary("AceLocale-3.0-ElvUI")
-local L = AceLocale:NewLocale("ElvUI", "esES") or AceLocale:NewLocale("ElvUI", "esES")
-if not L then return end
+﻿local L = ElvUI[1].Libs.ACL:NewLocale("ElvUI", "esES")
 
 -- Credit: ISBILIANS
 
@@ -58,7 +56,7 @@ L["Send position to chat"] = "Enviar posición por chat"
 L["Set the font size."] = "Ajuste del tamaño de letra."
 L["Shadows"] = "Sombras"
 L["ShiftClick : "] = "ShiftClick:"
-L["Show additional info in the Location Panel."] = "Mostar información adicional en el panel de ubicación."
+L["Show additional info in the Location Panel."] = true
 L["Show Battle Pet level"] = "Mostar nivel de mascotas"
 L["Show/Hide all panels when in combat"] = "Mostrar / Ocultar todos los paneles en combate"
 L["Show/Hide PvP zones, Arenas and BGs on recommended dungeons and zones."] = "Mostrar / Ocultar zonas de PvP, arenas y campos de batalla de las zonas y mazmorras recomendadas."
@@ -74,6 +72,7 @@ L["Truncates the text rather than auto enlarge the location panel when the text 
 L["Truncate text"] = true
 L["Update Timer"] = "Temporizador"
 L["Use Custom Location Color"] = "Utilizar color de ubicación personalizado"
+L["Use DataTexts font"] = true
 L["with Entrance Coords"] = "con coordenadas de Acceso"
 L["Zone and Subzone"] = "Zona y subzona"
 L["Hide Coords"] = true

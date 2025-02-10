@@ -1,7 +1,4 @@
-﻿-- English localization file for itIT
-local AceLocale = LibStub:GetLibrary("AceLocale-3.0-ElvUI")
-local L = AceLocale:NewLocale("ElvUI", "itIT")
-if not L then return end
+﻿local L = ElvUI[1].Libs.ACL:NewLocale("ElvUI", "itIT")
 
 L["Adds 2 digits in the coords"] = "Adds 2 digits in the coords" -- Requires localization
 L["Adds 6 pixels at the Main Location Panel height."] = "Adds 6 pixels at the Main Location Panel height." -- Requires localization
@@ -58,7 +55,7 @@ L["Send position to chat"] = "Send position to chat" -- Requires localization
 L["Set the font size."] = "Set the font size." -- Requires localization
 L["Shadows"] = "Shadows" -- Requires localization
 L["ShiftClick : "] = "ShiftClick : " -- Requires localization
-L["Show additional info in the Location Panel."] = "Show additional info in the Location Panel." -- Requires localization
+L["Show additional info in the Location Panel."] = true
 L["Show Battle Pet level"] = "Show Battle Pet level" -- Requires localization
 L["Show/Hide all panels when in combat"] = "Show/Hide all panels when in combat" -- Requires localization
 L["Show/Hide PvP zones, Arenas and BGs on recommended dungeons and zones."] = "Show/Hide PvP zones, Arenas and BGs on recommended dungeons and zones." -- Requires localization
@@ -74,6 +71,7 @@ L["Truncates the text rather than auto enlarge the location panel when the text 
 L["Truncate text"] = "Truncate text" -- Requires localization
 L["Update Timer"] = "Update Timer" -- Requires localization
 L["Use Custom Location Color"] = "Use Custom Location Color" -- Requires localization
+L["Use DataTexts font"] = true
 L["with Entrance Coords"] = "with Entrance Coords" -- Requires localization
 L["Zone and Subzone"] = "Zone and Subzone" -- Requires localization
 L["Hide Coords"] = true

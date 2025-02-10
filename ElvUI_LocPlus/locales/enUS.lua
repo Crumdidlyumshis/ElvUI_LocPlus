@@ -1,7 +1,5 @@
-﻿-- English localization file for enUS
-local AceLocale = LibStub:GetLibrary("AceLocale-3.0-ElvUI")
-local L = AceLocale:NewLocale("ElvUI", "enUS")
-if not L then return end
+﻿local L = ElvUI[1].Libs.ACL:NewLocale("ElvUI", "enUS", true, true)
+if not L then return; end -- We only need this check in the main locale file, which is enUS, cause we set it in the check above, 1st true (default)
 
 L["Adds 2 digits in the coords"] = true
 L["Adds 6 pixels at the Main Location Panel height."] = true
@@ -76,6 +74,7 @@ L["Truncates the text rather than auto enlarge the location panel when the text 
 L["Truncate text"] = true
 L["Update Timer"] = true
 L["Use Custom Location Color"] = true
+L["Use DataTexts font"] = true
 L["with Entrance Coords"] = true
 L["Zone and Subzone"] = true
 L["Hide Coords"] = true
