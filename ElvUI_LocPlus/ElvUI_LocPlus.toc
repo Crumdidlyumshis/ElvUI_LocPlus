@@ -1,7 +1,7 @@
 ﻿## Interface: 30300
 ## Author: Benik
 ## Version: 2.83
-## Title: |cff1784d1E|r|cffe5e3e3lvUI|r |cff1784d1L|r|cffe5e3e3ocation|r |cff1784d1P|r|cffe5e3e3lus|r
+## Title: |cff1784d1E|cff3399d1l|cff4daed1v|cff66c3d1U|cff80d8d1I|r |cffffffffLocation Plus|r
 ## Notes: a plugin for ElvUI, that adds location, coords, 2 Datatexts and a tooltip full of info.
 ## RequiredDeps: ElvUI
 ## OptionalDeps: LibTourist-3.0
